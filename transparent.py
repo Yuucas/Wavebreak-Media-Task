@@ -9,9 +9,9 @@ s3 = boto3.client('s3')
 
 s3 = boto3.resource(
     service_name='s3',
-    region_name='us-east-2',
-    aws_access_key_id='AKIAUAQVCVARLH7FDWXI',
-    aws_secret_access_key='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'
+    region_name='us-east-1',
+    aws_access_key_id='AKIAUAQVCVARPIGUNAOL',
+    aws_secret_access_key='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'
 )
 
 # Print out bucket names
